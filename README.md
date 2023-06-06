@@ -1,6 +1,6 @@
 # Takım İsmi
-- Takım Unity 123 
-- Code Cooks
+Takım Unity 123 
+( Code Cooks )
 
 # Ürün İle İlgili Bilgiler
 # Takım Elemanları
