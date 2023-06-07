@@ -4,10 +4,10 @@ Takım Unity 123
 
 # Ürün İle İlgili Bilgiler
 # Takım Elemanları
-- Beyza Sakarya: Product Owner 
+- Beyza Sakarya: Scrum Master
 - Muammer Öncel: Developer
 - Pınar Özel: Artist
-- Fatma Erdoğan: Scrum Master/Developer
+- Fatma Erdoğan: Product Owner/Developer
 
 # Ürün İsmi
 --Meal Mayhem--
