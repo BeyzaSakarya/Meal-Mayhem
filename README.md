@@ -30,3 +30,22 @@ Takım Unity 123
 Product Backlog URL
 
 -[Unity 123 Trello Backlog Bord ](https://trello.com/b/NyiKmSk4/google-akademi-bootcamp)
+
+# 1. Sprintte Yapılanlar
+- Oyun hikayesi yazıldı
+- İlgili assetler ve animasyonlar kuruldu
+- Player oyuna eklendi
+- Player prefablandı
+- Playerın mouse yönüne dönmesi sağlandı
+- Düşmanlar oyuna eklendi
+- Düşmanlar prefablandı
+- Düşmanlar spawnlandı
+- Düşmanların playere doğru hareket etmesi sağlandı
+- Düşmanların pooling sistemi kuruldu
+- Playerın mousenin dokunduğu yere gitmesi sağlandı
+- Netcode join işlemi yapıldı
+- Multiplayer işlemi tamamlandı
+- Oyunda kullanılacak nesne ve düşmanların bir kısmı hazırlandı [https://trello.com/c/rTMkHFLL]
+
+  
+  
