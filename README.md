@@ -3,6 +3,7 @@ Takım Unity 123
 ( Code Cooks )
 
 # Ürün İle İlgili Bilgiler
+
 # Takım Elemanları
 - Beyza Sakarya: Product Owner
 - Muammer Öncel: Developer
