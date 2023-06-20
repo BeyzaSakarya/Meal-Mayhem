@@ -61,11 +61,13 @@ Kartlardan çıkan özel güçler düşünülecek tam olarak daha karar verilmed
 <img width="545" alt="Ekran Resmi 2023-06-21 00 51 28" src="https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/f088e186-9986-4434-a7db-de5a96a6a825">
 -[Unity 123 Trello<img width="493" alt="Ekran Resmi 2023-06-21 00 50 17" src="https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/ecdcc620-31dd-487a-a005-48a7f8380409">
 
-# Sprint Review: Alınan kararlar: Kullanıcı hareket kodları kodlanmıştır , yapılan modeller değerlendirildi, netcode servislerine bağlantıları yapılmış ve eksiklikleri değerlendirilmiştir. Sprint Review katılımcıları:  Beyza Sakarya,Muammer Öncel,Pınar Özel,Fatma Erdoğan
+# Sprint Review:
+- Alınan kararlar:Kullanıcı hareket kodları kodlanmıştır , yapılan modeller değerlendirildi, netcode servislerine bağlantıları yapılmış ve eksiklikleri değerlendirilmiştir.
+- Sprint Review katılımcıları:  Beyza Sakarya,Muammer Öncel,Pınar Özel,Fatma Erdoğan
 
 # Sprint Retrospective:
 - Takım üyelerinin gelecek sprintlerde daha fazla aktif olması gerektiğine vurgu yapılmıştır.
-- Görev dağılımları yapılmış.
+- Takım üyelerinin görevleri netleştirilmiş.
 - Oyun içi belirsizler üzerinde durulmuştur.
 
 # Product Backlog URL
