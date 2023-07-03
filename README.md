@@ -91,6 +91,7 @@ Kartlardan çıkan özel güçler düşünülecek tam olarak daha karar verilmed
 # Ürün Durumu: Ekran görüntüleri:
 Yazılım konusunda herhangi bir ilerleme kaydedilememiş. Görsel olarak ilerleme kaydedilmiştir.
 <img width="461" alt="Ekran Resmi 2023-07-03 11 54 33" src="https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/13ebfdd2-b486-4cf6-a584-ccd2e637f451">
+
 https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/379b2afb-29e6-4d2b-9622-f7dcfe2fee75
 
 # Sprint Review:
