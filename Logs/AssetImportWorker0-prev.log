@@ -1,0 +1,612 @@
+Unity Editor version:    2021.3.13f1 (9e7d58001ecf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4.1 (c) (Build 22F770820d)
+Darwin version:          22.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51028
+Successfully changed project path to: /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem
+/Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 259.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001878 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2023-07-14 11:09:27.869 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 250.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (215ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (251ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007790 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-07-14 11:09:32.153 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 246.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2772ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (2316ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (246ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (575ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.7 MB). Loaded Objects now: 7645.
+Memory consumption went from 227.1 MB to 226.4 MB.
+Total: 6.952018 ms (FindLiveObjects: 0.665568 ms CreateObjectMapping: 0.688686 ms MarkObjects: 5.012971 ms  DeleteObjects: 0.583488 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8989.428248 seconds.
+  path: Assets/_Game/_Scripts/CartPanel.cs
+  artifactKey: Guid(c4c5e216e9d1c4fb092cb4d2c9ae7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/CartPanel.cs using Guid(c4c5e216e9d1c4fb092cb4d2c9ae7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec91d156707bbf19fe602f3d1d1e9aa') in 0.196890 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-07-14 11:09:42.417 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2073ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1689ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (570ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (796ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 7646.
+Memory consumption went from 300.5 MB to 299.8 MB.
+Total: 6.238486 ms (FindLiveObjects: 0.671142 ms CreateObjectMapping: 0.640923 ms MarkObjects: 4.468827 ms  DeleteObjects: 0.456624 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.371225 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/blank_panel.png
+  artifactKey: Guid(8e1b0ce17f7664eedbc2830d85484984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/blank_panel.png using Guid(8e1b0ce17f7664eedbc2830d85484984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f280b30a4a2f84067c8ed3825f75f5d') in 1.565869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/tablet.png
+  artifactKey: Guid(c9279190ce7224868ae0835101a8b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/tablet.png using Guid(c9279190ce7224868ae0835101a8b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865c6d4694163503abb2b69d4560d29c') in 0.017023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/tablet_text.png
+  artifactKey: Guid(014ee2b601fc047fba754f9c7cb31cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/tablet_text.png using Guid(014ee2b601fc047fba754f9c7cb31cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f2af46fb88193b6121bacfcd040fe3') in 0.009517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/tiles.png
+  artifactKey: Guid(3b577a6e61764447eb4f025ac763e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/tiles.png using Guid(3b577a6e61764447eb4f025ac763e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e46d684b31297344c2377165dda4d2') in 0.021077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/tiles_text.png
+  artifactKey: Guid(e07d85862a5594c249e40ed7b823fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/tiles_text.png using Guid(e07d85862a5594c249e40ed7b823fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7a3bcfff79830238f8839e1bb06690') in 0.008435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.947930 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/puzzle.png
+  artifactKey: Guid(0edafaeabbece4408a2278524fe31663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/puzzle.png using Guid(0edafaeabbece4408a2278524fe31663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c6440376da5df4f3de4e8e324c1038') in 0.036124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572134 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_2_7.png
+  artifactKey: Guid(45117118a425f47a0947460ed90f1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_2_7.png using Guid(45117118a425f47a0947460ed90f1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a761e119d87bf7a1ee6c8c2c19fc181d') in 0.020384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.877853 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_2_4.png
+  artifactKey: Guid(b662c6ce13a7c44acb1eec3906b35951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_2_4.png using Guid(b662c6ce13a7c44acb1eec3906b35951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d620f54123bab1a9bbabaee0023dab') in 0.017698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_2_6.png
+  artifactKey: Guid(fe88391a4d6d448adbbec00f578a22e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_2_6.png using Guid(fe88391a4d6d448adbbec00f578a22e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53edc1c8b09ac72c3a45023082cb0b54') in 0.011446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.920196 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_1_9.png
+  artifactKey: Guid(c02335c627433405798426a5e044f923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_1_9.png using Guid(c02335c627433405798426a5e044f923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e2077f7e2bffcdc7ba7c190b169186') in 0.016832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_2_3.png
+  artifactKey: Guid(da7a4fd5d92a54c699fed9c18b47ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_2_3.png using Guid(da7a4fd5d92a54c699fed9c18b47ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bdcf4956d2042c66c06c7c643db894') in 0.014126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016026 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_1_6.png
+  artifactKey: Guid(54623a52eb5a243c99405c85e9e84636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_1_6.png using Guid(54623a52eb5a243c99405c85e9e84636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4b362118adcbeef62f4041133e1350') in 0.010839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_1_8.png
+  artifactKey: Guid(c896b36fc23f045859a0f96b1b1da58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_1_8.png using Guid(c896b36fc23f045859a0f96b1b1da58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f9e7b78f1572d041110d1e3d04bbff') in 0.008506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387091 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_1_3.png
+  artifactKey: Guid(40a5dd79bd1b4402284e4cba07bb04b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_1_3.png using Guid(40a5dd79bd1b4402284e4cba07bb04b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0408aadb43b3452bd99c4d056ec045') in 0.020372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/pen_paper_text.png
+  artifactKey: Guid(f99663269f4304f449445250b60174e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/pen_paper_text.png using Guid(f99663269f4304f449445250b60174e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c19e29be335e8314f960d31342b24b9') in 0.014986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/players_1_5.png
+  artifactKey: Guid(55e32c7fd55834460ad6ea169fb03c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/players_1_5.png using Guid(55e32c7fd55834460ad6ea169fb03c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bb3fff48fa8e66db438af57c2d012d') in 0.010569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419571 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/miniatures.png
+  artifactKey: Guid(071a4f603715647a6a23a5b7af95cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/miniatures.png using Guid(071a4f603715647a6a23a5b7af95cdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7373cc2dee04ab50f3b6a5bd7e4246d') in 0.035516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.445947 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/medium_light_text.png
+  artifactKey: Guid(d7649c3e641ad4675821907efbd1d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/medium_light_text.png using Guid(d7649c3e641ad4675821907efbd1d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd773e1a42533af9dfca92cdc6f78353e') in 0.016934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.213008 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/medium_heavy.png
+  artifactKey: Guid(68b303cf744ea47a8b65430395db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/medium_heavy.png using Guid(68b303cf744ea47a8b65430395db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee0e6982c66943097b37e233c538aa4') in 0.026097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.471724 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/luck.png
+  artifactKey: Guid(b2ccdf113beb442dd824a3fa15caa576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/luck.png using Guid(b2ccdf113beb442dd824a3fa15caa576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a768bba74d121ef709b5d80e012fbbe2') in 0.020367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/knowledge_text.png
+  artifactKey: Guid(c91ee68de0976404792a9cd2421834df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/knowledge_text.png using Guid(c91ee68de0976404792a9cd2421834df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85cec223b75ac053d34126ac0a9465e') in 0.009907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472904 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/interaction.png
+  artifactKey: Guid(7c969090de5834f99b0d32e8ca81ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/interaction.png using Guid(7c969090de5834f99b0d32e8ca81ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265a62a7b2f30f7bb7915e3c6f690317') in 0.019798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041596 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/heavy.png
+  artifactKey: Guid(af326a1eed1ed49d48d80f88b05eff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/heavy.png using Guid(af326a1eed1ed49d48d80f88b05eff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dac376c37faf7505f6de557444e1b4') in 0.012266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.906545 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/duration_60_90.png
+  artifactKey: Guid(5c13bc1a7fc954fbfaebe50d28c53304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/duration_60_90.png using Guid(5c13bc1a7fc954fbfaebe50d28c53304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7382a5787d7e894950f5057ae2da64') in 0.017358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056974 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/duration_45.png
+  artifactKey: Guid(bca5a97d424ee4fa7a4f999d291cdf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/duration_45.png using Guid(bca5a97d424ee4fa7a4f999d291cdf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de51f4d6e3c2696649de9a94116eaaaa') in 0.012301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381210 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/duration_15_30.png
+  artifactKey: Guid(b758fdbb27d3b44aaa6eb8826d81a64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/duration_15_30.png using Guid(b758fdbb27d3b44aaa6eb8826d81a64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be564daadb071c4e55b270339066e31') in 0.017229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056911 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/duration.png
+  artifactKey: Guid(7013f958979624bd28c74ffca014ec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/duration.png using Guid(7013f958979624bd28c74ffca014ec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55597f360bb6e4ed7df777f08d8cf2fe') in 0.012654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368689 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/choking_hazard_age.png
+  artifactKey: Guid(e8e2d50343ca64efea28c68eb51c0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/choking_hazard_age.png using Guid(e8e2d50343ca64efea28c68eb51c0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b3398c3ec8663488a875632875ff31') in 0.020025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057637 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/cards_text.png
+  artifactKey: Guid(de51de695f83645818a68ce19378b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/cards_text.png using Guid(de51de695f83645818a68ce19378b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874ba3cbe72f503e9af8b4d4ad224b3a') in 0.011053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.946790 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/ages_all.png
+  artifactKey: Guid(34642a833db4745d3bb238d578edcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/ages_all.png using Guid(34642a833db4745d3bb238d578edcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce7ee02006deb5b265b5afe1d2468fe') in 0.021016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.027862 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/ages_13.png
+  artifactKey: Guid(9d0e529c130d84b3aa6ac5316fb43d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/ages_13.png using Guid(9d0e529c130d84b3aa6ac5316fb43d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdf5460277a6d9e20ad159bb2b24e98') in 0.017291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632446 seconds.
+  path: Assets/_Game/Sprites/Default (128px)/ages_3.png
+  artifactKey: Guid(a5f9b3a1de4ad4b59b108400d9e0bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Sprites/Default (128px)/ages_3.png using Guid(a5f9b3a1de4ad4b59b108400d9e0bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a315861041e5220378a7416a69aa66') in 0.017157 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-07-14 11:31:29.363 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2047ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1664ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (556ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.6 MB). Loaded Objects now: 7653.
+Memory consumption went from 379.1 MB to 378.5 MB.
+Total: 6.192107 ms (FindLiveObjects: 0.669286 ms CreateObjectMapping: 0.591919 ms MarkObjects: 4.491696 ms  DeleteObjects: 0.438270 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007543 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-07-14 11:35:10.822 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2066ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (1683ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (567ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (795ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 7654.
+Memory consumption went from 379.3 MB to 378.6 MB.
+Total: 6.483821 ms (FindLiveObjects: 0.659422 ms CreateObjectMapping: 0.676079 ms MarkObjects: 4.672557 ms  DeleteObjects: 0.474539 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007125 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fatmaerdogan/Meal-Mayhem/Meal-Mayhem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-07-14 12:53:52.714 Unity[2476:100117] [XcodeApplications] Failed to read NSDictionary from path /Users/fatmaerdogan/Downloads/Xcode.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2063ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1678ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (556ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.6 MB). Loaded Objects now: 7655.
+Memory consumption went from 379.4 MB to 378.7 MB.
+Total: 6.544394 ms (FindLiveObjects: 0.673634 ms CreateObjectMapping: 0.654267 ms MarkObjects: 4.752379 ms  DeleteObjects: 0.463005 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
