@@ -1,4 +1,5 @@
 
+
 # Takım İsmi
 Takım Unity 123 
 ( Code Cooks )
@@ -103,7 +104,52 @@ https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/379b2afb-29e6-4d2b-9
 - Takım üyelerinin görevleri netleştirilmiş.
 - Oyun içi belirsizler üzerinde durulmuştur.
 
-# Product Backlog URL
+# 3. Sprintte Yapılanlar:
+
+-Daily Scrum toplantıları yoğunluk ve zaman yetersizliği nedeniyle What's App üzerinden gerçekleştirilmiştir.
+-Yapılan konuşmalar ve paylaşımlar aşağıdadır.
+
+![Ekran görüntüsü 2023-07-16 121931](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/956aae5c-c08c-4648-898b-c1b8a0edcc61)
+![Ekran görüntüsü 2023-07-16 122032](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/bde17cc2-df12-4ac7-83fb-00b031b290e0)
+![Ekran görüntüsü 2023-07-16 122149](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/a6cd525c-3358-42f4-933a-d91e6b03212d)
+![Ekran görüntüsü 2023-07-16 122229](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/bd078080-71d1-4163-aeef-1433d117888a)
+
+# Sprint board update: Sprint board screenshotları (Trello):
+
+![trello](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/5b8bd952-edf0-4561-b0b1-4e61a1f33d0d)
+![trello1](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/1e15050f-2877-4b5e-8ec4-ebe3b1d442f6)
+
+# Ürün Durumu:
+
+- Son sprint olması nedeniyle modeller tamamlandı, yapılan işler hızlandırıldı.
+  
+![tavuk](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/9a3f7c2c-4d4f-477a-a6ee-7a887b1954c4)
+![karabiber](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/00534911-7194-4bba-be2f-9eb48dac6d54)
+![patates](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/1a9e4a74-3ef9-46a1-8438-4d6a9528a19b)
+![düşman ](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/ab1bd477-7b8c-4cde-9a7a-d9feb5672262)
+![acıbiber](https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/96819101-a4ff-40e6-960f-89c395cd56d3)
+
+- Kodlama tarafında hızlı gelişmeler kaydedildi.
+- Animasyonlar ve testler yapılmıştır:
+- https://github.com/Fatmaerdogan/Meal-Mayhem/assets/136702389/71a1c93e-5b23-4bd0-98a2-77d59f87b91f
+- Oyunun UI-UX tasarımı yapılıp logosu tasarlanmaktadır.
+
+https://github.com/Fatmaerdogan/Meal-Mayhem/assets/24254222/379b2afb-29e6-4d2b-9622-f7dcfe2fee75
+
+# Sprint Review:
+- Oyuna son dokunuşlar eklenmek üzere görev paylaşımı yapıldı.
+- Win ve Fail panelleri değerlendirildi.
+- Oyunun logosu için fikir önerileri sunuldu.
+- Video için harekete geçildi.
+- Sprint Review katılımcıları: Fatma Erdoğan, Muammer Öncel, Pınar Özel, Beyza Sakarya.
+
+# Sprint Retrospective:
+- Oyunun son hali için kararlar alınmıştır.
+- Hızlanmak gerektiği tekrarlanmıştır.
+- Video çekmek için harekete geçmenin önemi vurgulanıp son rötuşlar kararlaştırılmıştır.
+
+
+# Product Backlog URL:
  Backlog Bord ](https://trello.com/b/NyiKmSk4/google-akademi-bootcamp)
 
 
